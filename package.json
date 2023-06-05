@@ -1,0 +1,22 @@
+{
+  "name": "react-webcam",
+  "version": "1.0.0",
+  "description": "test et essai de React-webcam",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "clear": "rm -rf .parcel-cache dist",
+    "build": "parcel build"
+  },
+  "author": "JULIEN GUILBAUD",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.1",
+    "parcel": "^2.9.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reset-css": "^5.0.1"
+  }
+}
