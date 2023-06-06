@@ -1,7 +1,14 @@
-import { useEffect, useState, } from 'react';
+import { useEffect, useState,useRef } from 'react';
+
 import "./style.scss"
+import { Webcam } from '../webcam/index.js';
+import { Canvas } from '../canvas';
 
 
 export function App() {
-    return <h1>Hello world!</h1>;
+    return (<>
+    <Webcam/>
+    <Canvas/>
+    </>
+    );
   }
